@@ -40,7 +40,7 @@ export default function Project() {
   }, [api]);
 
   return (
-    <section className="p-16 bg-white border border-black/10 rounded-lg space-y-8 mt-40">
+    <section className="p-5 py-8 sm:px-8 lg:p-16 bg-white border border-black/10 rounded-lg space-y-8 mt-40">
       <div className="text-center space-y-4">
         <h1 className="font-semibold text-3xl lg:text-6xl">Project</h1>
         <p className="lg:text-xl max-w-[50ch] mx-auto text-black/60">
