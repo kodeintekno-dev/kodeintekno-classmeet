@@ -5,8 +5,8 @@ import { twMerge } from "tailwind-merge";
 export default function Navbar() {
   const [navHamburger, setNavHamburger] = useState(false);
   return (
-    <div className="fixed top-0 inset-x-0 container mx-auto sm:px-12 px-5 space-y-5">
-      <nav className="flex justify-between items-center px-10 py-5 bg-white border border-black/10 rounded-lg mt-10">
+    <div className="fixed top-0 inset-x-0 container mx-auto sm:px-12 px-5 space-y-5 z-50">
+      <nav className="flex justify-between items-center px-10 py-5 border border-black/10 rounded-lg mt-10 bg-white/80 backdrop-blur-xl">
         <img src="/img/logo.png" alt="KodeinTekno" className="h-6 sm:h-8" />
         <ul className="hidden lg:flex gap-8 items-center">
           {links.map((link, i) => (
