@@ -16,10 +16,10 @@ export default function About() {
       </div>
       <div className=" bg-gray-100 px-5 py-5 rounded-lg flex-1">
         <div className="flex gap-2">
-          <img src="public/img/logoAbout.svg" alt="logo" />
+          <img src="/img/icon/picture.svg" alt="logo" />
           <p className="font-semibold">Aktifitas Tim Kami</p>
         </div>
-        <img className="mt-3" src="public/img/aktifitas.jpg" alt="photo" />
+        <img className="mt-3" src="/img/aktifitas.jpg" alt="photo" />
       </div>
     </section>
   );
