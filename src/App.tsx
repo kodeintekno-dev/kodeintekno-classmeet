@@ -4,7 +4,7 @@ import Testimonial from "./components/Testimonial";
 
 export default function App() {
   return (
-    <main className="container mx-auto sm:px-12 px-5">
+    <main className="container mx-auto sm:px-12 px-5 space-y-7">
       <Navbar />
       <Project />
       <Testimonial />
