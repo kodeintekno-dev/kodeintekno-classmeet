@@ -44,8 +44,10 @@ export default function Navbar() {
       </nav>
       <ul
         className={twMerge(
-          navHamburger ? "lg:hidden translate-x-0" : "translate-x-2/1",
-          "flex flex-col gap-4 items-center bg-white px-10 py-5 border border-black/10 rounded-lg transition-transform duration-300 relative z-50",
+          navHamburger
+            ? "lg:hidden translate-x-0"
+            : "translate-x-2/1 pointer-events-none opacity-0",
+          "flex flex-col gap-4 items-center bg-white px-10 py-5 border border-black/10 rounded-lg transition-transform duration-300 absolute inset-x-5 sm:inset-x-12 z-50",
         )}
       >
         {links.map((link, i) => (
