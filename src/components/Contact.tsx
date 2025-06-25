@@ -1,5 +1,3 @@
-import { User, Mail, MessageSquare } from "lucide-react";
-
 export default function Contact() {
   return (
     <section className="p-5 py-8 sm:px-8 lg:p-16 bg-white border border-black/10 rounded-lg flex flex-col xl:flex-row gap-16">
