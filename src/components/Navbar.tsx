@@ -10,8 +10,8 @@ export default function Navbar() {
   }, [navHamburger]);
 
   return (
-    <div className="fixed top-0 inset-x-0 container mx-auto sm:px-12 px-5 space-y-5">
-      <nav className="flex justify-between items-center px-10 py-5 border border-black/10 rounded-lg mt-10 bg-white/80 backdrop-blur-xl relative z-50">
+    <div className="fixed top-0 inset-x-0 container mx-auto sm:px-12 px-5 space-y-5 z-50">
+      <nav className="flex justify-between items-center px-10 py-5 border border-black/10 rounded-lg mt-10 bg-white/80 backdrop-blur-xl relative">
         <img src="/img/logo.png" alt="KodeinTekno" className="h-6 sm:h-8" />
         <ul className="hidden lg:flex gap-8 items-center">
           {links.map((link, i) => (
@@ -47,7 +47,7 @@ export default function Navbar() {
           navHamburger
             ? "lg:hidden translate-x-0"
             : "translate-x-2/1 pointer-events-none opacity-0",
-          "flex flex-col gap-4 items-center bg-white px-10 py-5 border border-black/10 rounded-lg transition-transform duration-300 absolute inset-x-5 sm:inset-x-12 z-50",
+          "flex flex-col gap-4 items-center bg-white px-10 py-5 border border-black/10 rounded-lg transition-transform duration-300 absolute inset-x-5 sm:inset-x-12",
         )}
       >
         {links.map((link, i) => (
