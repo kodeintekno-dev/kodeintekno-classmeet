@@ -44,8 +44,7 @@ export default function Testimonial() {
       <div className="text-center space-y-4">
         <h1 className="font-semibold text-3xl lg:text-6xl">Testimonial</h1>
         <p className="lg:text-xl max-w-[50ch] mx-auto text-black/60">
-          Lorem ipsum dolor sit amet consectetur. Condimentum eget vitae ligula
-          sed urna sit sagittis interdum a.
+          Kami telah melayani berbagai client dengan profesional, efisien dan teratur hingga mereka selalu puas dengan layanan kami.
         </p>
       </div>
       <Carousel

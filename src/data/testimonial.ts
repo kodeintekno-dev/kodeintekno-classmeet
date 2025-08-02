@@ -2,7 +2,7 @@ export const testimonials = [
   {
     rate: 5,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum scelerisque",
-    author: "Fulan b",
+    author: "Fulan a",
   },
   {
     rate: 3.6,
@@ -12,31 +12,31 @@ export const testimonials = [
   {
     rate: 5,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum scelerisque",
-    author: "Fulan b",
+    author: "Fulan c",
   },
   {
     rate: 5,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum scelerisque",
-    author: "Fulan b",
+    author: "Fulan d",
   },
   {
     rate: 5,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum scelerisque",
-    author: "Fulan b",
+    author: "Fulan e",
   },
   {
     rate: 5,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum scelerisque",
-    author: "Fulan b",
+    author: "Fulan f",
   },
   {
     rate: 5,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum scelerisque",
-    author: "Fulan b",
+    author: "Fulan g",
   },
   {
     rate: 5,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum scelerisque",
-    author: "Fulan b",
+    author: "Fulan h",
   },
 ];

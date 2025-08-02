@@ -21,7 +21,7 @@ export default function Contact() {
               </div>
               <input
                 type="text"
-                placeholder="Fulan bin Fulan ..."
+                placeholder="masukkan nama anda disini"
                 className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-transparent placeholder-gray-400 text-sm text-black"
               />
             </div>
@@ -33,7 +33,7 @@ export default function Contact() {
               </div>
               <input
                 type="email"
-                placeholder="Fulan@gmail.com ..."
+                placeholder="masukkan email anda disini"
                 className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-transparent placeholder-gray-400 text-sm text-black"
               />
             </div>
@@ -46,7 +46,7 @@ export default function Contact() {
             </div>
             <textarea
               rows={4}
-              placeholder="Lorem ipsum dolor sit amet..."
+              placeholder="masukkan pesan anda untuk kami disini"
               className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-transparent placeholder-gray-400 text-sm resize-none text-black"
             />
           </div>
