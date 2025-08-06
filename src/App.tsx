@@ -1,7 +1,7 @@
 import About from "./components/About";
 import Navbar from "./components/Navbar";
 import Project from "./components/Project";
-import Testimonial from "./components/Testimonial";
+// import Testimonial from "./components/Testimonial";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -15,7 +15,7 @@ export default function App() {
       <About />
       <Service />
       <Project />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Contact />
       <Footer />
     </main>

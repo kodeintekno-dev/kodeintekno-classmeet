@@ -5,7 +5,7 @@ export const testimonials = [
     author: "Fulan a",
   },
   {
-    rate: 3.6,
+    rate: 4,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum scelerisque",
     author: "Fulan b",
   },
