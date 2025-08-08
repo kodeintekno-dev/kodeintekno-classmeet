@@ -5,7 +5,7 @@ export default function About() {
         <h1 className="text-2xl md:text-3xl xl:text-6xl font-bold md:font-semibold mb-4">
           Tentang Kami
         </h1>
-        <p className="text-black/60 font-medium text-md xl:text-xl">
+        <p className="text-black/60 lg:text-lg xl:text-xl">
           Kodeintekno adalah mitra strategis Anda dalam transformasi digital.
           Kami menghadirkan solusi-solusi inovatif yang menggabungkan
           kreativitas dan teknologi terkini. Dengan portofolio layanan lengkap

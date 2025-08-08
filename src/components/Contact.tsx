@@ -3,7 +3,7 @@ export default function Contact() {
     <section className="p-5 py-8 sm:px-8 lg:p-16 bg-white border border-black/10 rounded-lg flex flex-col xl:flex-row gap-16">
       <div className="flex-1 text-center md:text-left space-y-4">
         <h1 className="font-semibold text-3xl lg:text-6xl">Hubungi Kami</h1>
-        <p className="lg:text-xl text-black/60">
+        <p className="text-black/60 lg:text-lg">
           Punya ide yang ingin diwujudkan? Kami siap bantu dalam UI/UX Design,
           Web Development, Digital Marketing, hingga 3D & Graphic Design.
           Hubungi kami sekarang dan mari mulai kolaborasi untuk membuat sesuatu

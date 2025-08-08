@@ -43,7 +43,7 @@ export default function Project() {
     <section className="p-5 py-8 sm:px-8 lg:p-16 bg-white border border-black/10 rounded-lg space-y-8">
       <div className="text-center space-y-4">
         <h1 className="font-semibold text-3xl lg:text-6xl">Project</h1>
-        <p className="lg:text-xl max-w-[50ch] mx-auto text-black/60">
+        <p className="max-w-[50ch] mx-auto lg:text-lg text-black/60">
           Kami mengembangkan website dan sistem yang modern, efisien dan
           berkomitmen memberikan hasil yang profesional, fungsional, dan sesuai
           dengan kebutuhan klien.
@@ -96,7 +96,7 @@ export default function Project() {
               <div
                 className={twMerge(
                   "w-2 sm:w-3 h-1 sm:h-2 rounded-lg transition-colors cursor-pointer",
-                  i + 1 == current ? "bg-black" : "bg-gray-300"
+                  i + 1 == current ? "bg-black" : "bg-gray-300",
                 )}
                 onClick={() => api?.scrollTo(i)}
               />

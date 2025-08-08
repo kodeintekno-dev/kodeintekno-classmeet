@@ -7,7 +7,7 @@ export default function Service() {
         <h1 className="text-2xl md:text-3xl xl:text-6xl font-bold md:font-semibold mb-4">
           Layanan Kami
         </h1>
-        <p className="text-black/60 font-medium text-md xl:text-xl">
+        <p className="text-black/60 lg:text-lg xl:text-xl">
           Kami menyediakan berbagai layanan digital terpadu yang dirancang untuk
           mendukung perkembangan bisnis Anda, mulai dari pengembangan website
           hingga pemasaran digital.
@@ -20,7 +20,7 @@ export default function Service() {
               <img src={item.icon} alt="icon" />
               <p className="font-semibold text-md md:text-xl">{item.title}</p>
             </div>
-            <p className="text-black/60 font-medium">{item.desc}</p>
+            <p className="text-black/60">{item.desc}</p>
           </div>
         ))}
       </div>
